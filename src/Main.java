@@ -4,9 +4,9 @@ public class Main {
         System.out.println("Hello, I'm practicing");
         Something s=new Something();
         System.out.println(s.num);
-        
+
         NewFeature nf=new NewFeature();
-        nf.just=somethingwrong;
+        nf.just="somethingwrong";
         nf.newOne="Without error";
     }
 }
